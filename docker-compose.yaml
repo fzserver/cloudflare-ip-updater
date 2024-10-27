@@ -1,5 +1,6 @@
 services:
   cloudflare-ip-updater:
+    container_name: CloudflareIPAddressUpdater
     build:
       context: .
       dockerfile: Dockerfile
